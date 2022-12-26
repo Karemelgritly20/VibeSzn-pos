@@ -1,0 +1,63 @@
+.ordercont {
+border-radius: 20px;
+border: solid 1px rgba(64,141,246,0.63);
+padding: 3px 18px;
+
+}
+
+
+.queud-box button {
+  color: black;
+
+
+
+
+
+
+}
+.queud-box button :hover{
+  color: black;
+transform: scale(1.02) !important;
+transition: transform .3s ease !important;
+
+
+
+
+
+}
+
+.typo span{
+  color: #015080;
+  font-size: 20px !important;
+  font-family: ITC book;
+  
+  
+}
+
+.queued-stack{
+    margin-top: 12px;
+    gap: 60px;
+    padding-bottom: 15px;
+}
+
+.queued-stack h6{
+  font-weight: 700 !important;
+  margin-left: 100px !important;
+  margin-left: 130px !important;
+}
+
+.arrow1 button:hover{
+  color: white;
+}
+
+
+
+
+
+
+
+
+  
+
+  
+  

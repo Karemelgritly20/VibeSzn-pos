@@ -1,0 +1,245 @@
+/* 
+.cart-container{
+   
+    max-width: 750px;
+
+} */
+
+
+.modal-box{
+  margin-top: 180px;
+  margin-left: 400px;
+  background-color: #98c3ff !important;
+  text-align: center !important;
+  
+  
+  
+}
+.modal-box img{
+  height: 90px;
+  ;
+  
+}
+
+
+
+
+.container{
+   
+   padding: 10px;
+   text-align:center;
+    position: relative;
+    overflow: hidden;
+    
+    
+  }
+  
+  .container:hover .overlay{
+    opacity: .85;
+    transform: scale(1);
+  }
+  
+  .overlay{
+    position:absolute;
+    background-color: rgba(64,141,246);
+    width: 92%;
+    height: 93%;
+    top: 0;
+    transform: scale(0.8);
+    opacity: 0;
+    transition: transform .2s ease 0s;
+    margin-top: 13px !important;
+    border-radius: 5px;
+    text-align: center !important;
+    align-items: center !important;
+    
+  }
+
+  span{
+    font-weight: 700;
+  }
+  
+  .container img{
+    margin: 10px;
+    transition: transform .5s ease;
+    margin: auto;
+  }
+  
+  .container:hover img{
+    transform: scale(1);
+  }
+
+
+  .container h5{
+    margin: 10px;
+    float: left;
+    margin-left: 20px;
+  }
+
+
+  .overlay h1{
+    color: white;
+    font-family: ITC book;
+    font-size: 23px;
+    padding: 10px;
+    margin:20px;
+    margin-top: 30px;
+  }
+
+
+  .overlay p{
+
+    color: white;
+    font-family: ITC book;
+    padding:20px !important;
+    
+  }
+
+  /* .overlay h2{
+  font-size: 13px;
+  font-family: roboto;
+  color: black;
+  font-weight: 100;
+  } */
+
+
+.container p{
+  padding: 3px 28px;
+  font-family: ITC BOOK !IMPORTANT;
+  MARGIN: 0px 10px;
+}
+
+
+
+.price-box span{
+  margin-top: 2px;
+  
+}
+.price-box svg{
+  
+  font-size: 25px !important;
+}
+
+
+/* .products-container{
+  background-image: linear-gradient(to top, #cacaca, #fff);
+  
+
+} */
+
+.column-border{
+
+color: black !important;
+height: 100% !important;
+background-color: black;
+border: 1px solid black;
+
+}
+
+
+.backorder-container p{
+
+color: black;
+padding: 5px !important;
+width: 50%;
+
+}
+/* 
+.price-box{
+  margin-top: 10px !important;
+
+} */
+
+.price-box svg{
+  font-size: 30px;
+}
+.overlay .price-box span{
+  margin: 10px !important;
+  padding: 5px;
+  
+}
+
+.backorder-container h6{
+
+  text-align: center !important;
+  font-family: 'ITC book';
+
+
+}
+
+.all-cont{
+  background-image: linear-gradient(to top, #cacaca, #fff);
+  position: absolute;
+  left: 0px;
+
+
+}
+
+.img{
+
+  width: 300px;
+}
+
+.loading-box h1{
+  color:#408df6 ;
+  padding: 50px;
+  text-align: center;
+
+  
+}
+.page-paginator{
+
+  text-align: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.img-div{
+  height: 200px;
+}
+
+.left-cont {
+  display: flex;
+  gap: 50px;
+  margin-left: 100px !important;
+}
+
+
+
+.selected{
+  background-color: #408df6 !important;
+}
+
+.notSelected{
+
+
+}
+
+
+.search{
+  border: none;
+  background-color: black;
+  padding: 7px 10px;
+  width: 510px;
+  font-size: 18px;
+  margin-top: 10px;
+  color: white !important;
+  
+  
+}
+
+.left-cont svg{
+  margin-top: 9px;
+}
+
+.products-container{
+  margin-left: 120px;
+}
+
+.btn-container{
+  margin-top: 11px;
+  margin-right: 80px;
+}
+.btn-container button{
+  padding: 5px 20px !important;
+}

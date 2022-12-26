@@ -1,0 +1,158 @@
+.cart-container{
+   min-width: 500px;
+   max-width: 550px;
+   float: right;
+/* border-left: 1px solid black; */
+padding: 10px;
+ 
+
+
+
+}
+
+.cart-header{
+    background-color:#1e5f9b
+
+    ;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    justify-content: space-between;
+     align-items:center;
+     
+}
+
+
+
+.prod-cart{
+    border-radius: 5px;
+  border: solid 1px rgba(127, 127, 127, 0.45);
+  background-color: #e7e7e7;
+  overflow-y: scroll;
+  height: 500px;
+  max-height: 500px;
+}
+
+.prod-cart img{
+height: 119px;
+width: 193px;
+}
+
+.prod-cart svg{
+  font-size: 30px;
+  color: #1e5f9b;
+  float: left !important;
+  /* margin-top: 35px; */
+  padding: 0px 10px;
+}
+
+
+.middle-box{
+ text-align: center;
+  width: 100%;
+  /* border: solid 15px #black; */
+  background-color: white;
+}
+.grid-footer{
+  margin-top: 20px;
+  align-items:center;
+  text-align: center;
+  width: 80%;
+  padding:20px;
+}
+
+.cart-bottom{
+  background-color:#b7904f;
+  border-bottom-left-radius: 23px;
+  border-bottom-right-radius: 23px;
+  text-align: center;
+  height: 56px;
+  justify-content: space-around;
+}
+.cart-bottom h6{
+
+  color: whitesmoke;
+  justify-content: space-around !important;
+}
+.items-grid{
+  border-radius: 5px;
+  border: solid 1px rgba(127, 127, 127, 0.45);
+  padding:15px;
+  display: grid;
+  width: 100%;
+}
+
+
+
+
+.cart-bottom a{
+  text-decoration: none !important;
+  
+}
+
+
+
+@media screen and (max-width: 1820px){
+  .prod-cart{ 
+
+overflow-x:scroll !important;
+float: right;
+
+
+
+  }
+}
+
+.plus-btn{
+  border-bottom-left-radius: 50px ;
+  border-top-left-radius: 50px;
+  background-color: #1e5f9b;
+  border: none;
+  padding: 10px;
+  color: white;
+  font-family: itc book;
+  height: 41px;
+}
+
+.min-btn{
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+  background-color: #1e5f9b;
+  border: none;
+  padding: 10px;
+  color: white;
+  font-family: itc book;
+  text-align: center;
+  height: 41px;
+
+}
+
+.sec-plus-btn{
+  border-bottom-left-radius: 50px ;
+  border-top-left-radius: 50px;
+ background-color: #b7904f;
+  border: none;
+  padding: 10px;
+  color: white;
+  font-family: itc book;
+  height: 41px;
+}
+
+.sec-min-btn{
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+ background-color: #b7904f;
+  border: none;
+  padding: 10px;
+  color: white;
+  font-family: itc book;
+  height: 41px;
+}
+
+.btn-stack span{
+  margin-top: 6px !important;
+}
+
+
+.deleteBtn{
+  margin-top: 40px;
+}

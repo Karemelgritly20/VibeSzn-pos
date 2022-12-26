@@ -1,0 +1,152 @@
+
+
+.checkout-header h1{
+   
+   float: left;
+   padding: 27px 30px;
+   
+}
+
+.checkout-header button{
+    border-radius: 20px ;
+    float: right !important;
+    margin: 30px 40px;
+    background-color: #408df6;
+    padding: 20px 20px !important;
+
+    
+}
+
+.customerinfo-header{
+    text-align: center !important;
+    width: 100%;
+    background-color: #408df6;
+    height: 76px;
+    margin-top: 50px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
+
+
+.customerinfo-header h5{
+
+    float: left;
+
+    color: white;
+    font-family: 'ITC book';
+    letter-spacing: 1px;
+   font-size: 25px;
+   font-weight: 400;
+   margin-top:35px;
+   margin-left: 30px;
+   
+}
+
+.checkbox{
+    text-transform: capitalize !important;
+    float: right;
+    font-size: 17px;
+    margin-right: 33px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    font-weight: 100;
+    font-family: ITC book;
+    align-items: center !important ;
+
+
+
+}
+
+
+
+.customerinfo-container button:focus{
+
+    background-color: black;
+}
+.customerinfo-container button:hover{
+    background-color: black;
+}
+
+
+.customerinfo-container{
+
+  
+    border: 1px solid black;
+}
+
+
+
+
+.customerinfo-container button{
+    padding: 5px 30px !important;
+    margin: 12px;
+    border-radius: 20px;
+    color: white;
+    background-color: #408df6;
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+.customer-form{
+    justify-content: space-between !important;
+
+}
+.customer-form{
+    width: 95%;
+}
+
+.checkbox{
+    
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+}
+.checkbox p{
+    padding: 0px 10px;
+    margin-top: 10px;
+}
+
+.form button{
+
+float: left !important;
+padding: 15px;
+margin: auto;
+}
+
+
+body{
+    margin: 0px;
+}
+
+.checkbox svg{
+    margin-bottom: 5px;
+}
+
+.container-all{
+
+    padding: 40px;
+    width: 88%;
+    margin-left: 90px;
+}
+
+.checkout-container .checkout-header h4{
+    font-size: 35px;
+    margin: 30px;
+}
+
+.checkout-header{
+justify-content: space-between;
+height: 76px !important;
+
+}
+
+.newsletter-div {
+    float:right
+}
+

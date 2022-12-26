@@ -1,0 +1,102 @@
+.logo {
+  height: 50px;
+  float: left;
+  padding: 25px;
+}
+
+.nav-stack {
+  justify-content: space-between;
+}
+
+.Navbar {
+  width: 100%;
+  justify-content: space-between;
+  background-color: #408df6;
+}
+
+.Typo {
+  display: flex;
+  float: left;
+  font-size: 29px !important;
+  font-family: "ITC Avant Garde Gothic Std Demi Condensed";
+}
+
+.Typo span {
+  font-size: 16px;
+  color: white;
+  margin-top: 55px;
+  margin-left: 5px;
+  font-family: "ITC book" !important;
+  font-weight: 100 !important;
+}
+
+.bignavbtn button {
+  border-radius: 11px;
+  border: solid 1px #fff;
+  background-color: #408df6;
+  cursor: pointer;
+  color: #ffff;
+  margin: 10px;
+  padding: 6px 21px;
+  font-size: 21px;
+  font-family: ITC book;
+  letter-spacing: 0.6px;
+  display: none;
+}
+
+.bignavbtn button:hover {
+  border-radius: 13px;
+  background-color: white;
+  color: #408df6;
+  transform: scale(1.03);
+}
+
+.navsecpart {
+  box-shadow: 0px 20px 24px 0 rgba(65, 28, 0, 0.17);
+}
+.bignavbtn {
+  margin: auto;
+  padding: auto;
+}
+
+.smnavbtn button {
+  margin: 10px;
+  border-radius: 15px;
+  color: white;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-family: ITC book;
+}
+.smnavbtn svg {
+  color: black;
+  padding: 5px;
+  font-size: 30px;
+}
+.navbarLeftContainer {
+  margin-left: 100px;
+}
+.rightNavbarContainer {
+  margin-right: 50px;
+}
+
+.profileIconContainer {
+  margin-top: 10px;
+}
+
+.profileIconContainer button:hover {
+  border: none !important;
+}
+
+.profileIconContainer span {
+  font-family: itc book;
+  font-weight: 100;
+
+  font-size: 18px;
+}
+.profileIconContainer svg {
+  font-size: 30px;
+  padding: 5px;
+}
+.profileIconContainer button {
+  text-transform: capitalize;
+}

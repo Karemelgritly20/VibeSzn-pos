@@ -1,0 +1,73 @@
+.storeselect-container h1{
+
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 32px;
+    font-family: ITC book;
+    
+
+}
+
+
+/* .storeselect-container button:hover{
+background-color:#408df6 ;
+color: white;
+} */
+
+.storeselect-container button{
+    text-transform: capitalize;
+    font-size: 24px;
+}
+.store-stack span{
+
+    color:#273846 ;
+}
+.btn-box:hover{
+    cursor: pointer;
+    background-color: #408df6;
+    color: white;
+}
+.btn-box:hover span{
+    color: white;
+}
+
+
+
+
+/* .btn-box span:hover{
+    color: white;
+} */
+
+
+
+.modal-container svg{
+    float: right;
+}
+
+.div-btn{
+    
+    border: 1px solid #408df6 !important;
+    border-radius: 20px;
+    width: 100%;
+    
+    
+}
+
+.div-btn:hover{
+    background-color:   #408df6 !important;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+
+.div-btn p{
+    padding: 10px;
+    font-family: itc book;
+    font-size: 24.5px;
+}
+
+.storeselect-container{
+    width: 90% !important;
+    margin-left: 100px;
+}
+

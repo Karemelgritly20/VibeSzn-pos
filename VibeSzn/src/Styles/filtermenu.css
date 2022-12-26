@@ -1,0 +1,63 @@
+
+
+
+.btn-container button{
+
+    border-radius: 20px;
+    background-color: #408df6;
+    text-transform: capitalize;
+    padding:6px 25px
+
+    
+}
+
+.btn-container button:hover{
+    transform: scale(1.01);
+    transition: transform .1s ease 0s;
+}
+
+
+.left-cont svg{
+    margin-top: 17px;
+    float: right!important;
+    font-size: 34px;
+    margin-left: 15px;
+    
+}
+.left-cont input{
+    width: 500px !important;
+    padding: 10px;
+
+}
+
+.left-cont  Input{
+    background-color: antiquewhite;
+    background-color: black;
+    border-radius: 20px;
+    font-size: 18px;
+    padding: 5px 15px !important;
+    width:250px;
+    margin: 10px;
+    color: white !important;
+    margin-top: 18px;
+    text-decoration: none !important;
+    
+    
+}
+
+
+.containerr{
+    border-bottom: 1px solid black;
+    padding: 10px;
+    
+
+}
+
+.left-cont  Input::before{
+
+    text-decoration: none !important;
+    border-bottom: none !important;
+    background-color: aqua !important;
+}
+
+

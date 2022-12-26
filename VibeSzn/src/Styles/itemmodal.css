@@ -1,0 +1,83 @@
+.modal-box{
+    margin-top: 180px;
+    margin-left: 400px;
+    background-color: #e7eef2 !important;
+    
+    
+    
+    
+  }
+
+
+
+
+  .modal-box img{
+    
+    height: 176px;
+    margin-top: 50px
+  }
+
+  .modal-header{
+    width: 100% !important;
+    border-bottom: 1px solid black;
+  }
+
+
+  .item-table{
+    max-height: 400px;
+    border-bottom: 1px solid black;
+  }
+
+
+  .item-table ul{
+    text-decoration: none;
+    list-style-type: none;
+    float: left;
+    text-align: left;
+    font-size: 10px;
+
+
+  }
+  .combination-check p{
+
+    padding: 10px 15px;
+    float: left;
+    color: #408df6;
+    font-size: 23px;
+   
+  }
+
+
+  .combination-btns{
+
+    border: 1px solid black;
+    
+  }
+ 
+
+  .combin-list{
+
+    padding: 15px;
+  }
+
+
+  
+/* 
+  .main-quantity{
+    display: none;
+
+  } */
+
+  .formGrid select{
+
+    background-color:transparent;
+    padding: 10px 20px;
+    float: left;
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .formGrid option{
+    background-color: transparent;
+  }
+

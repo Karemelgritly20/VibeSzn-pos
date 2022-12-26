@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'ITC Avant Garde Gothic Std Demi Condensed';
+  src: url('../public/ITCAvantGardeStd-DemiCn.woff2') format('woff2'),
+      url('../public/ITCAvantGardeStd-DemiCn.woff') format('woff');
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ITC book';
+  src: url('../public/ITCAvantGardeStd-BkCn.woff2') format('woff2'),
+      url('../public/ITCAvantGardeStd-BkCn.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+/* .your-style {
+  font-family: 'ITC Avant Garde Gothic Std Demi Condensed';
+  font-style: normal;
+} */
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  top: 0px !important;
+  font-family: 'ITC Avant Garde Gothic Std Demi Condensed';
+
+  
+  
+
+}
+
+/* 
+.body h5{
+  font-family: "ITC Avant Garde Gothic Std Demi Condensed";
+}
+ */
+
+
+ .app-cont{
+  top: 0 !important;
+  padding: 0px !important;
+  margin: 0px !important;
+  left: 0px !important;
+  width: 100% !important;
+
+ }
